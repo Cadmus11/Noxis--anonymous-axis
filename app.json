@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "NOXIS",
+    "slug": "noxis",
+    "version": "1.0.0",
+    "scheme": "noxis",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "experiments": {
+      "tsconfigPaths": true,
+      "typedRoutes": true
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-font"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#050816"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.noxis.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#050816"
+      },
+      "package": "com.noxis.app"
+    }
+  }
+}
